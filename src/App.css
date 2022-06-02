@@ -58,7 +58,8 @@ html {
 
 .canvas {
   background-color: #28334AFF;
-  height: 100vh;
+  height: 100%;
+
 }
 
 .menu ul {
@@ -132,6 +133,7 @@ html {
 }
 
 .menu {
+  border: 1px solid red;
   float: left;
   padding-left: 0%;
   padding-right: 10%;
@@ -139,14 +141,16 @@ html {
 }
 
 .main {
+  border: 1px solid red;
   float: left;
 }
 
-.blank {
-  float: left;
+.horizontalblank {
+  padding: 3% 3% 3% 3%;
 }
 
 .HeaderButtonFrame {
+  border: 1px solid red;
   width: 80%;
   height: 40%;
   margin-right: 10%;
@@ -157,6 +161,7 @@ html {
 }
 
 .HeaderButtons {
+  border: 1px solid red;
   width: 10%;
   height: 100%;
   color: #FBDE44FF;
@@ -165,25 +170,44 @@ html {
 }
 
 .HeaderButtonText {
+  border: 1px solid red;
   color: #FBDE44FF;
   font-size: 120%;
 }
 
 .img-responsive {
+  border: 1px solid red;
   width: 40%;
   height: 40%;
 }
 
 .Greetings {
+  border: 1px solid red;
   text-align: center;
   font-family: "Lucida Console";
   color: #FBDE44FF;
 }
 .NameinGreeting {
-  padding-bottom: 5%;
-  padding-top: 5%;
+  border: 1px solid red;
+  padding-bottom: 15%;
+  padding-top: 15%;
   font-size:30px;
   color: #FBDE44FF;
+}
+
+.experiences {
+  background-color: #F65058FF;
+  border-radius: 9px;
+  padding: 1%;
+}
+
+.experiences :hover{
+  background-color: #0099cc;
+}
+
+.contactme {
+  padding: 1%;
+  border: 1px solid red;
 }
 
 .HiMyNameIs {
