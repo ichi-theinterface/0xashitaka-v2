@@ -27,12 +27,14 @@ const Main = () => (
       </div>
 
       <div class="col-6 col-s-9 main">
-        <h1 className="NameinGreeting">What's up - I'm Ichiro!</h1>
-        <p>
+        <h1 className="Greetings NameinGreeting">What's up - I'm Ichiro!</h1>
+        <h3 className='Greetings'>A network tech in a cloud provider</h3>
+        <p className='Greetings'>
           Stay hungy and curious about the possibility of technology.<br/>
           What I love about IT is that more I learn about it,<br/>
           more things I find that I do not know!! 
-      </p>
+        </p>
+        <h2>Experience</h2>
       </div>
     </div>
 )
