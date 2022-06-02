@@ -5,7 +5,7 @@ import Main from './component/Main'
 
 function App() {
   return (
-    <div>
+    <div className='canvas'>
       <Header />
       <Main />
     </div>
@@ -13,3 +13,4 @@ function App() {
 }
 
 export default App;
+

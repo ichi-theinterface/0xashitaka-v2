@@ -51,10 +51,14 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-.header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
+.header { 
+  border: 1px solid red;
+  padding: 1% 1% 1% 1%;
+}
+
+.canvas {
+  background-color: #28334AFF;
+  height: 100vh;
 }
 
 .menu ul {
@@ -66,7 +70,6 @@ html {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -130,17 +133,17 @@ html {
 
 .menu {
   float: left;
-  border: 1px solid red;
+  padding-left: 0%;
+  padding-right: 10%;
+  text-align: center;
 }
 
 .main {
   float: left;
-  border: 1px solid red;
 }
 
 .blank {
   float: left;
-  border: 1px solid red;
 }
 
 .HeaderButtonFrame {
@@ -156,26 +159,31 @@ html {
 .HeaderButtons {
   width: 10%;
   height: 100%;
-  color: #DAA03DFF;
-  text-decoration-color: #DAA03DFF;
+  color: #FBDE44FF;
+  text-decoration-color: #FBDE44FF;
   text-align: center;
 }
 
 .HeaderButtonText {
-  color: #DAA03DFF;
+  color: #FBDE44FF;
   font-size: 120%;
 }
 
 .img-responsive {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
 }
 
-.NameinGreeting {
+.Greetings {
   text-align: center;
-  font-size:30px;
   font-family: "Lucida Console";
-  color: #DAA03DFF;
+  color: #FBDE44FF;
+}
+.NameinGreeting {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-size:30px;
+  color: #FBDE44FF;
 }
 
 .HiMyNameIs {
@@ -184,4 +192,8 @@ html {
 
 .OneLineDescription {
   color: #808080;
+}
+
+.archive {
+  border: 1px solid red;
 }
