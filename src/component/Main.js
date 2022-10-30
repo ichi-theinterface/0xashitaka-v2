@@ -35,25 +35,6 @@ const Main = () => (
           more things I find that I do not know!! 
         </p>
         <h1 className='horizontalblank'></h1>
-        <h2>Where I've worked</h2>
-        <div className='experiences'>
-          <h2>Amazon AWS</h2>
-          <h3>Network Deploy Tech</h3>
-          <li>deploy</li>
-          <li>config</li>
-          </div>
-        <div className='experiences'>
-          <h2>SYSCOM GLOBAL SOLUTIONS INC</h2>
-          <h3>Network Engineer</h3>
-          <li>deploy</li>
-          <li>config</li>
-          </div>
-        <div className='experiences'>
-          <h2>International Education Center</h2>
-          <h3>Student Assistant</h3>
-          <li>deploy</li>
-          <li>config</li>
-          </div>
       </div>
     </div>
 )
