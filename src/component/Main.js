@@ -28,7 +28,7 @@ const Main = () => (
 
       <div class="col-6 col-s-9 main">
         <h1 className="Greetings NameinGreeting">What's up - I'm Ichiro!</h1>
-        <h2 className='Greetings'>A network tech in a cloud provider</h2>
+        <h2 className='Greetings'>An engineer in cloud computing</h2>
         <p className='Greetings'>
           Stay hungy and curious about the possibility of technology.<br/>
           What I love about IT is that more I learn about it,<br/>
