@@ -1,0 +1,5 @@
+# CloudWatch Agent Basics
+Commands to install cloud watch agent. 
+sudo $$$$$$
+Commands to start the agegnt
+sudo $$$$$$

@@ -1,8 +1,8 @@
 import React from 'react';
-import '../App.css';
+import '../Page/App.css';
 
 const Footer = () => (
-    <div class="footer">
+    <div className="footer">
       <h1 className='contactme'>
         <span>This doesn't have to end yet, ya know!</span> <br />
         <span>Email me at </span>

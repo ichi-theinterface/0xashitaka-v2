@@ -1,12 +1,12 @@
 import React from 'react';
-import '../App.css';
+import '../Page/App.css';
 import twitter from '../images/twitter.png';
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
 
 const Main = () => (
-    <div class="row">
-      <div class="col-3 col-s-3 menu">
+    <div className="row">
+      <div className="col-3 col-s-3 menu">
         <ul>
         <li>
             <a href="https://twitter.com/BiteChacha" target="_blank">
@@ -26,7 +26,7 @@ const Main = () => (
         </ul>
       </div>
 
-      <div class="col-6 col-s-9 main">
+      <div className="col-6 col-s-9 main">
         <h1 className="Greetings NameinGreeting">What's up - I'm Ichiro!</h1>
         <h2 className='Greetings'>An Engineer in cloud computing</h2>
         <p className='Greetings'>

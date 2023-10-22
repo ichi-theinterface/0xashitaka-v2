@@ -162,7 +162,8 @@ html {
 }
 
 .HeaderButtons {
-  
+  display: flex;
+  justify-content: space-between;
   width: 10%;
   height: 100%;
   color: #FBDE44FF;
