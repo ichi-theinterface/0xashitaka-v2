@@ -63,58 +63,57 @@
     font-family: Arial, sans-serif;
     line-height: 1.5;
     max-width: 700px;
-  }
-  
-  /* Style for headers */
-  .markdown h1,
-  .markdown h2,
-  .markdown h3,
-  .markdown h4,
-  .markdown h5,
-  .markdown h6 {
-    color: #333;
-    margin-top: 20px;
-  }
-  
-  .markdown h1 {
-    font-size: 2em;
-    border-bottom: 2px solid #ddd;
-  }
-  
-  .markdown h2 {
-    font-size: 1.75em;
-  }
-  
-  /* ... similarly for h3, h4, etc. if needed */
-  
-  /* Style for links */
-  .markdown a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .markdown a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Style for code blocks */
-  .markdown code {
-    font-family: 'Courier New', monospace;
-    background-color: #f0f0f0;
-    padding: 2px 5px;
-    border-radius: 3px;
-  }
-  
-  /* Style for blockquote */
-  .markdown blockquote {
-    border-left: 4px solid #ddd;
-    padding-left: 10px;
-    color: #777;
-  }
+}
 
-  .markdown pre, .markdown code {
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: pre-wrap; /* Optional, ensures that lines break if necessary */
-  }
+/* Style for headers */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: #333;
+  margin-top: 20px;
+}
 
-  
+.markdown h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #ddd;
+}
+
+.markdown h2 {
+  font-size: 1.75em;
+}
+
+/* ... similarly for h3, h4, etc. if needed */
+
+/* Style for links */
+.markdown a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+/* Style for code blocks */
+.markdown code {
+  display: block; /* Ensures block-level display */
+  font-family: 'Courier New', monospace;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: pre; /* Keeps text from wrapping */
+  max-width: 100%; /* Restricts the width to the parent container's width */
+}
+
+
+
+/* Style for blockquote */
+.markdown blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 10px;
+  color: #777;
+}
