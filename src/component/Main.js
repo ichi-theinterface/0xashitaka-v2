@@ -28,13 +28,20 @@ const Main = () => (
 
       <div className="col-6 col-s-9 main">
         <h1 className="Greetings NameinGreeting">What's up - I'm Ichiro!</h1>
-        <h2 className='Greetings'>An Engineer in cloud computing</h2>
+        <h2 className='Greetings'>A Passionate Network Engineer</h2>
         <p className='Greetings'>
-          Stay hungy and curious about the possibility of technology.<br/>
-          What I love about IT is that more I learn about it,<br/>
+          Stay hungy and curious to learn about computer.<br/>
+          What I love about computer is that more I learn about it,<br/>
           more things I find that I do not know!! 
         </p>
         <h1 className='horizontalblank'></h1>
+        <h2 className='Greetings'>Check out my Blogs!!</h2>
+        <div class="blog-button-container">
+          <a href="/blog" class="blog-button">
+            <h2 className='Greetings'>Go to Blog Page</h2>
+          </a>
+        </div>
+
       </div>
     </div>
 )

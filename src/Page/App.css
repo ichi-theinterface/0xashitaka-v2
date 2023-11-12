@@ -57,14 +57,12 @@ html {
 
 }
 
-.header { 
-  
+.header {
   padding: 1% 1% 1% 1%;
 }
 
 .footer {
-  
-  color: #ffffff;
+  color: #FBDE44FF;
   height: 20%;
   text-align: center;
   font-size: 12px;
@@ -134,7 +132,6 @@ html {
 }
 
 .menu {
-  
   float: left;
   padding-left: 0%;
   padding-right: 10%;
@@ -142,7 +139,6 @@ html {
 }
 
 .main {
-  
   float: left;
 }
 
@@ -172,19 +168,16 @@ html {
 }
 
 .HeaderButtonText {
-  
   color: #FBDE44FF;
   font-size: 120%;
 }
 
 .img-responsive {
-  
   width: 40%;
   height: 40%;
 }
 
 .Greetings {
-  
   text-align: center;
   font-family: "Lucida Console";
   color: #FBDE44FF;
@@ -223,4 +216,25 @@ html {
 
 .archive {
   border: 1px solid red;
+}
+
+.blog-button-container {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100px; /* Set a height for the container */
+}
+
+.blog-button {
+  display: inline-block; /* Allows applying padding and makes it align like a button */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #0056b3; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes the underline from the link */
+  border-radius: 5px; /* Rounded corners for the button */
+  text-align: center; /* Centers the text */
+}
+
+.blog-button:hover {
+  background-color: green; /* Darker shade for hover effect */
 }
