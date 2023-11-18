@@ -1,7 +1,9 @@
 .canvas {
-    background-color: #28334AFF;
-    height: 100%;
+  background-color: #28334AFF;
+  min-height: 100vh; /* Minimum height is 100% of the viewport height */
+  height: auto; /* Adjusts height automatically based on content */
 }
+
 
 .blog-post-frame {
     background-color: #28334AFF;
@@ -11,7 +13,7 @@
     gap: 20px; /* Space between cards */
     height: auto;
     width: 100%;
-    max-width: 700px; /* Set a maximum width for the frame */
+    max-width: 1100px; /* Set a maximum width for the frame */
     margin: 0 auto; /* Centering the frame if it's placed inside a larger container */
     padding-bottom: 20px;
     padding-top: 20px;
@@ -29,6 +31,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
     background-color: #ffffff;
     transition: box-shadow 0.3s; /* Smooth shadow transition */
+    max-height: 200px;
 }
 
 .blog-title {
