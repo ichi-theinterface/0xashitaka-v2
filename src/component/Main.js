@@ -1,34 +1,12 @@
 import React from 'react';
-import '../Page/App.css';
-import twitter from '../images/twitter.png';
-import linkedin from '../images/linkedin.png'
-import github from '../images/github.png'
+//import '../Page/App.css';
+import './Main.css'
 
 const Main = () => (
-    <div className="row">
-      <div className="col-3 col-s-3 menu">
-        <ul>
-        <li>
-            <a href="https://twitter.com/BiteChacha" target="_blank">
-              <img className="img-responsive" src={twitter} alt="logo"/>
-	           </a>
-           </li>
-          <li>
-	        <a href="https://www.linkedin.com/in/ichiro-yamasaki-1692aa168/" target="_blank">
-            <img className="img-responsive" src={linkedin} alt="logo"/>
-	         </a>
-           </li>
-          <li>
-	        <a href="https://github.com/ichi-theinterface" rel="noreferrer" target="_blank">
-            <img className="img-responsive" src={github} alt="logo"/>
-	         </a>
-           </li>
-        </ul>
-      </div>
-
-      <div className="col-6 col-s-9 main">
+    <div className="MainFrame">
+      <div className="MainContent">
         <h1 className="Greetings NameinGreeting">What's up - I'm Ichiro!</h1>
-        <h2 className='Greetings'>A Passionate Network Engineer</h2>
+        <h2 className='Greetings'>A Passionate Engineer</h2>
         <p className='Greetings'>
           Stay hungy and curious to learn about computer.<br/>
           What I love about computer is that more I learn about it,<br/>
@@ -41,7 +19,6 @@ const Main = () => (
             <h2 className='Greetings'>Go to Blog Page</h2>
           </a>
         </div>
-
       </div>
     </div>
 )

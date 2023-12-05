@@ -1,0 +1,55 @@
+/* Main frame styles */
+.MainFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    background-color: #28334AFF; /* Light gray background */
+}
+
+/* Main content styles */
+.MainContent {
+    text-align: center;
+    padding: 20px;
+    background-color: #28334AFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Greetings styles */
+.Greetings {
+    color: #FBDE44FF; /* Dark gray text */
+    margin-bottom: 20px;
+}
+
+/* Specific styles for h1 and h2 inside Greetings */
+.Greetings h1, .Greetings h2 {
+    margin-bottom: 10px;
+}
+
+/* Styling for the blog button container */
+.blog-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Blog button styles */
+.blog-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.blog-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for horizontal blank (can be adjusted as needed) */
+.horizontalblank {
+    height: 50px; /* Example height */
+    background-color: #28334AFF; /* Light gray background */
+}

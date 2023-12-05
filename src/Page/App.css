@@ -57,10 +57,6 @@ html {
 
 }
 
-.header {
-  padding: 1% 1% 1% 1%;
-}
-
 .footer {
   color: #FBDE44FF;
   height: 20%;
@@ -144,32 +140,6 @@ html {
 
 .horizontalblank {
   padding: 3% 3% 3% 3%;
-}
-
-.HeaderButtonFrame {
-  
-  width: 80%;
-  height: 40%;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 2%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.HeaderButtons {
-  display: flex;
-  justify-content: space-between;
-  width: 10%;
-  height: 100%;
-  color: #FBDE44FF;
-  text-decoration-color: #FBDE44FF;
-  text-align: center;
-}
-
-.HeaderButtonText {
-  color: #FBDE44FF;
-  font-size: 120%;
 }
 
 .img-responsive {
